@@ -1,0 +1,69 @@
+.footer-container {
+    display        : block;
+    width          : 100%;
+    background     : url(img/footer-bg.jpg) no-repeat;
+    height         : 130px;
+    background-size: cover;
+    margin-top     : 5px;
+
+}
+
+.footer_body {
+    display: block;
+    width  : 1147px;
+    margin : auto;
+}
+
+.footer_col1,
+.footer_col2,
+.footer_col3 {
+    display: block;
+    float  : left;
+}
+
+.footer_col1 {
+    width: 20%;
+}
+
+.footer_col2 {
+    width: 70%;
+}
+
+.footer_col3 {
+    width: 10%;
+}
+
+.footer_col1 img {
+    width: 60%;
+    float: left;
+}
+
+.footer_col3 img {
+    width     : 66%;
+    float     : right;
+    margin-top: 10px;
+}
+
+.social-container {
+    display   : block;
+    float     : right;
+    width     : 115px;
+    margin-top: 12px;
+}
+
+.social_col1,
+.social_col2,
+.social_col3,
+.social_col4 {
+    display: block;
+    float  : left;
+    width  : 50%;
+
+}
+
+.social_col1 img,
+.social_col2 img,
+.social_col3 img,
+.social_col4 img {
+    width: 50px;
+}

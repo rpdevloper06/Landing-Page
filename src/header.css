@@ -1,0 +1,50 @@
+.header-container {
+    display   : block;
+    width     : 100%;
+    background: #0e2a4b ! important;
+
+    float: left;
+}
+
+.header-col-right h3 {
+    font-size  : 30px ! important;
+    color      : #fff;
+    font-weight: 200 ! important;
+    text-align : left;
+    padding    : 0;
+}
+
+h3 {
+    padding: 0 !important;
+}
+
+
+
+em.emph {
+    font-style : normal;
+    font-weight: 600;
+
+}
+
+
+.header-col-left,
+.header-col-right {
+    display   : flex;
+    float     : inherit;
+    width     : 50%;
+    background: transparent;
+}
+
+.header-col-left img {
+    width: 12%;
+    margin-left:50%;
+
+}
+
+.sliderimg {
+    width : 30%;
+    height: auto;
+
+    margin-top : 60px;
+    margin-left: 30%
+}

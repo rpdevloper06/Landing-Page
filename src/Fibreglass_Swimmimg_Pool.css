@@ -1,0 +1,46 @@
+.homePanel1 {
+    display: flex;
+    width  : 1147px;
+    margin : auto;
+    padding: 0;
+}
+
+.homePanel_left,
+.homePanel_right {
+    float  : left;
+    display: block;
+
+    height: 300px;
+}
+
+.homePanel_left {
+    width: 40%;
+
+}
+
+img.at_image {
+    padding: 0;
+    width  : 100%;
+
+}
+
+.homePanel_right {
+    width  : 58%;
+    padding: 0 10px;
+
+}
+
+@media screen and (max-width:767px) {
+
+    .homePanel1,
+    .homePanel_left,
+    .homePanel_right {
+        width  : 100%;
+        display: block;
+    }
+
+    .homePanel_right {
+        height : 450px;
+        padding: 0 ! important;
+    }
+}

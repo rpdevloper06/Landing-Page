@@ -1,0 +1,30 @@
+.ausNetwork {
+    display: flex;
+    width  : 1147px;
+    margin : auto;
+    padding: 0;
+    border : 1px solid #ccc;
+}
+
+.ausNetwork_left,
+.ausNetwork_right {
+    float  : left;
+    display: block;
+
+    height: 300px;
+}
+
+.ausNetwork_left {
+    width: 56%;
+
+    padding: 25px;
+
+
+}
+
+img.at_image {
+    padding: 15px;
+    width  : 88%;
+    float  : right;
+
+}

@@ -1,0 +1,210 @@
+/* MEDIA RESOLUTION - 1400px */
+
+@media screen and (max-width:1400px) {
+    .sliderimg {
+        width        : 40% ! important;
+        height       : auto;
+        margin-top   : 100px;
+        /*margin-left: 100%;*/
+
+    }
+
+    .mainBanner h4 {
+        margin-top: 27% !important;
+        font-size : 30px ! important;
+
+
+    }
+
+
+
+    .mainBanner h2,
+    .mainBanner h4 {
+
+        margin-left: 18% ! important;
+    }
+
+    .header-col-left img {
+        width      : 16% !important;
+        margin-left: 30% ! important;
+    }
+
+    img.award {
+        width: 48% ! important;
+    }
+
+}
+
+/* MEDIA RESOLUTION - 767px */
+
+@media screen and (max-width:767px) {
+    .sliderimg {
+        display: none ! important;
+    }
+
+    .header-col-left,
+    .header-col-right {
+        width: 100% ! important;
+    }
+
+    .header-col-left img {
+        width     : 30% ! important;
+        margin-top: 45px ! important;
+    }
+
+    .header-col-right h3 {
+        font-size : 25px ! important;
+        padding   : 0 100px !important;
+        text-align: center !important
+    }
+
+    img.at_image {
+
+        float: initial ! important;
+    }
+
+    .award-col-left,
+    .award-col-right {
+        width: 100% ! important;
+    }
+
+    .award-col-left h2 {
+        text-align: inherit ! important;
+    }
+
+    .awardPanel {
+        height: 300px ! important;
+    }
+
+    .award-col-right {
+        text-align: center ! important;
+        padding   : 0 ! important;
+    }
+
+    .mainBanner {
+        border: 0 ! important;
+    }
+
+    .mainBanner h4 {
+
+        font-size  : 30px !important;
+        margin-left: 0 ! important;
+        text-align : center ! important;
+        font-weight: 400 ! important;
+        position   : initial ! important;
+    }
+
+    .ausNetwork {
+        display: inline-block ! important;
+    }
+
+    .ausNetwork_left {
+        width: auto;
+
+
+    }
+
+    .ausNetwork_left,
+    .ausNetwork {
+        width: 90% ! important;
+
+        height: auto ! important;
+    }
+
+    .ausNetwork_right,
+    .homePanel_right {
+        height: auto ! important;
+
+    }
+
+    .globalNetwork {
+        width: 90% ! important;
+
+    }
+
+    slide-steps h5,
+    .slide-steps p {
+        text-align: left;
+        width     : 100% ! important;
+    }
+
+    .slide-step_r2 {
+
+        width: 60% ! important;
+
+    }
+
+    .slide-step_r1 {
+        width: 30% ! important;
+    }
+
+    .slide-steps img {
+        float       : right ! important;
+        width       : 60% ! important;
+        margin-right: 20px ! important;
+    }
+
+    .footer_col1 {
+        width     : auto ! important;
+        display   : block ! important;
+        margin    : auto ! important;
+        text-align: center ! important;
+    }
+
+    .footer_col1 img {
+        width  : 80% ! important;
+        padding: 20px;
+
+    }
+
+    .footer-container {
+        height: 115px ! important;
+    }
+
+    .footer_col1,
+    .footer_col2,
+    .footer_col3 {
+        width: 30% !important;
+    }
+
+    .footer_body {
+
+        width: 100% ! important;
+        ;
+
+    }
+
+    .social-container {
+        display: block;
+
+        width: 144px ! important;
+
+        margin: 12px auto;
+
+    }
+
+    .social_col1,
+    .social_col2,
+    .social_col3,
+    .social_col4 {
+        display     : block;
+        float       : left;
+        width       : 42%;
+        margin-top  : 8px;
+        margin-right: -10px;
+    }
+
+    .social_col1 img,
+    .social_col2 img,
+    .social_col3 img,
+    .social_col4 img {
+        width      : 35px ! important;
+        margin-left: 45px ! important;
+    }
+
+    .footer_col3 img {
+        width : 50% ! important;
+        float : initial ! important;
+        margin: 18px ! important;
+    }
+}

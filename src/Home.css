@@ -1,0 +1,127 @@
+.mainBanner {
+    margin-bottom: 5px;
+    background   : url(./img/aquatechnicsMainBanner-updated.jpg);
+
+    background-size: cover;
+    height         : 670px;
+
+    display   : block;
+    float     : left;
+    width     : 100%;
+    border-top: 5px solid #fff;
+}
+
+.mainBanner h2,
+.mainBanner h4 {
+    position: absolute;
+
+    margin-left: 30%;
+    color      : #fff;
+
+
+    text-align : left;
+    text-shadow: 1px 1px 1px #000;
+}
+
+
+.mainBanner h2 {
+
+    margin-top: 10%;
+
+
+    font-size  : 53px;
+    font-weight: 100;
+    line-height: 1.2;
+
+}
+
+.mainBanner h4 {
+
+    margin-top: 17%;
+
+
+    font-size  : 35px;
+    font-weight: 600;
+
+}
+
+
+
+
+
+.awardPanel {
+    display   : block;
+    float     : left;
+    width     : 100%;
+    background: #0e2a4b ! important;
+    height    : 150px;
+    margin    : 15px 0;
+}
+
+.award-col-left,
+.award-col-right {
+    float  : left;
+    display: block;
+
+}
+
+.award-col-left {
+    width: 58%;
+}
+
+.award-col-right {
+    width: 39%;
+}
+
+img.award {
+    width: 30%;
+}
+
+.award-col-left h2 {
+    color      : #fff;
+    text-align : right;
+    padding    : 30px 0;
+    font-size  : 30px;
+    font-weight: 800 ! important;
+}
+
+.award-col-right {
+
+    text-align: left;
+    padding   : 15px 0 15px 20px;
+
+}
+
+.globalNetwork {
+    display: block;
+    width  : 1147px;
+    margin : 50px auto 30px auto;
+
+}
+
+.globalMap {
+    display   : none;
+    width     : 100%;
+    margin    : auto;
+    background: #f2f7fc;
+}
+
+img.ausMap {
+    width: 40%;
+
+}
+
+@media screen and (max-width:767px) {
+    award-col-left h2 {
+        color      : #fff;
+        text-align : right;
+        padding    : 8px 30px;
+        font-size  : 22px;
+        font-weight: 800 !important;
+
+    }
+
+    .mainBanner h2 {
+        display: none;
+    }
+}
